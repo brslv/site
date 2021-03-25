@@ -1,0 +1,9 @@
+---
+layout: base-layout.pug
+---
+
+article(class="post")
+  h1(class="title")= title
+  time(class="date" datetime=filters.dateIso(date))= filters.dateReadable(date)
+  div(class="content").
+    !{content}
