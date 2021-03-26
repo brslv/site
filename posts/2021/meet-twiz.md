@@ -3,6 +3,8 @@ layout: post-layout.pug
 title: Meet Twiz
 date: 2021-03-24
 tags: ["post", "projects"]
+meta_og_image: /img/posts/2021/meet-twiz.jpeg
+meta_description: With Twiz you can create beaufitul twitter visuals in one click.
 ---
 
 ![Twiz.me](/img/posts/2021/meet-twiz.jpeg "Meet Twiz")

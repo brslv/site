@@ -2,9 +2,25 @@ html(lang="en")
   head
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1")
-    title= title
+
+    if meta_description
+      meta(property="description" content=meta_description)
+      meta(property="og:description" content=meta_og_description)
+    if meta_og_image
+      meta(property="og:image" content=`https://borislav.me${meta_og_image}`)
+      meta(name="twitter:card" content="summary_large_image")
+
+    meta(property="og:url" content=`https://borislav.me${page.url}`)
+    meta(property="og:title" content=`${title} • Borislav Grigorov`)
+
+    if title
+      title= `${title} • Borislav Grigorov`
+    else
+      title Borislav Grigorov
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous")
     link(rel="stylesheet" href="/css/style.css" type="text/css")
+    link(rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon")
+    link(rel="icon" href="/img/favicon.ico" type="image/x-icon")
   body
     div(class="app")
       header(class="header")
