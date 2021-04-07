@@ -2,6 +2,7 @@
   --c-primary: #fdf2e9;
   --c-primary-darker: #fde9d9;
   --c-text: #424949;
+  --c-yellow: #FCD34D;
   --radius: 7px;
 }
 
@@ -76,6 +77,10 @@ small,
   font-size: 0.889rem;
 }
 
+.bold {
+  font-weight: 800;
+}
+
 /* === APP ================================================== */
 
 .app {
@@ -104,10 +109,22 @@ small,
   align-items: center;
 }
 
-.header .left a {
-  font-weight: 800;
-  text-decoration: none;
-  display: block;
+.header .left {
+  display: flex;
+  align-items: center;
+}
+
+.header .left img.me {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  transition: all, 0.2s;
+}
+
+.header .left:hover img.me {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px -5px var(--c-text);
 }
 
 .header a {
@@ -118,6 +135,22 @@ small,
   background-color: var(--c-primary-darker);
   padding: 5px 10px;
   border-radius: var(--radius);
+}
+
+hr,
+.line {
+  border: 0;
+  border-bottom: 1px solid var(--c-text);
+  opacity: 0.15;
+}
+
+/* === INTRO ================================================== */
+.intro {
+  margin-bottom: 60px;
+}
+
+.intro .intro-separator {
+  margin-top: 60px;
 }
 
 /* === POST ================================================== */
@@ -169,9 +202,10 @@ small,
   border-radius: var(--radius);
 }
 
-/* === POST ================================================== */
+/* === PROJECTS ================================================== */
 
 .projects .project {
+  position: relative;
   margin-bottom: 30px;
   padding: 20px;
   border-radius: var(--radius);
@@ -186,6 +220,17 @@ small,
   .projects .project {
     flex-direction: row;
   }
+}
+
+.projects .project .wip {
+  text-transform: uppercase;
+  font-size: 11px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: var(--c-yellow);
+  padding: 3px 5px;
+  border-radius: 5px;
 }
 
 .projects .project img {

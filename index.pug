@@ -7,6 +7,15 @@ pagination:
   alias: posts
 ---
 
+div(class="intro")
+  div(class="h1 bold") Hey #[span 👋]
+  p Thanks for stopping by.
+  p My name is Borislav and I'm a full-stack developer, based in Sofia, Bulgaria. I love building useful digital products, spending time thinking, reading and exploring. Big fan of strength training. #[a(href="https://en.wikipedia.org/wiki/Objectivism" title="Wikipedia: Objectivism" target="_blank" rel="noreferrer noopener") Objectivist].
+  p I write about tech, software development, productivity, making successfull products and everything in between.
+  p You can find me on Twitter, tweeting behind the #[a(href="https://twitter.com/@Brslv" title="Twitter - @Brslv" target="_blank" rel="noreferrer noopener") @Brslv] handle.
+
+  hr(class="intro-separator")
+
 each post in posts
   article(class="post excerpt")
     h1(class="title")
