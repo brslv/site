@@ -3,9 +3,13 @@ layout: post-layout.pug
 title: My programming principles
 sdate: 2021-04-09
 tags: ["post"]
-meta_og_image: /img/posts/2021/meet-twiz.jpeg
-meta_description: If you want to understand why principles are important, how to expand horizontally and what does it mean for a design to emerge continue reading.
+meta_og_image: /img/posts/2021/my-programming-principles.jpeg
+meta_description: Understand why principles are important, how to expand horizontally and what does it mean for a design to emerge.
 ---
+
+![Mechanical keyboard](/img/posts/2021/my-programming-principles.jpg "Mechanical keyboard")
+
+###### Photo by [bady abbas](https://unsplash.com/@bady?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") on [Unsplash](https://unsplash.com/s/photos/mechanical-keyboard?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 A principle is a "fundamental truth or proposition, that serves as the foundation for a system of belief or behavior".
 
