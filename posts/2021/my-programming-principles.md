@@ -3,7 +3,7 @@ layout: post-layout.pug
 title: My programming principles
 sdate: 2021-04-09
 tags: ["post"]
-meta_og_image: /img/posts/2021/my-programming-principles.jpeg
+meta_og_image: /img/posts/2021/my-programming-principles.jpg
 meta_description: Understand why principles are important, how to expand horizontally and what does it mean for a design to emerge.
 ---
 
