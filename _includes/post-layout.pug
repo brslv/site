@@ -7,3 +7,23 @@ article(class="post")
   time(class="date" datetime=filters.dateIso(date))= filters.dateReadable(date)
   div(class="content").
     !{content}
+
+div.subscribe-form
+  .emailoctopus-form-wrapper.emailoctopus-form-centered.null
+    h2.emailoctopus-heading Subscribe to my newsletter
+    div(class="description") Get notified when I publish new articles. Zero spam.
+    p.emailoctopus-success-message
+    p.emailoctopus-error-message
+    form.emailoctopus-form(action='https://emailoctopus.com/lists/6f7e2a36-9915-11eb-a3d0-06b4694bee2a/members/embedded/1.3s/add' method='post' data-message-success='Thanks for subscribing!' data-message-missing-email-address='Your email address is required.' data-message-invalid-email-address='Your email address looks incorrect, please try again.' data-message-bot-submission-error="This doesn't look like a human submission." data-message-consent-required='Please check the checkbox to indicate your consent.' data-message-invalid-parameters-error='This form has missing or invalid fields.' data-message-unknown-error='Sorry, an unknown error has occurred. Please try again later.' data-sitekey='6LdYsmsUAAAAAPXVTt-ovRsPIJ_IVhvYBBhGvRV6')
+      .emailoctopus-form-row
+        input#field_0(name='field_0' type='email' placeholder='Email' required='required')
+      .emailoctopus-form-row-hp(aria-hidden='true')
+        input(type='text' name='hpc4b27b6e-eb38-11e9-be00-06b4694bee2a' tabindex='-1' autocomplete='nope')
+      .emailoctopus-form-row-subscribe
+        input(type='hidden' name='successRedirectUrl')
+        button(type='submit') Subscribe
+    .emailoctopus-rewards
+      | Powered by
+      a(href='https://emailoctopus.com/?urli=Kgv22&utm_medium=user_referral&utm_source=builder' target='_blank')
+        | EmailOctopus
+

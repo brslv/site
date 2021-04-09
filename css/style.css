@@ -2,7 +2,7 @@
   --c-primary: #fdf2e9;
   --c-primary-darker: #fde9d9;
   --c-text: #424949;
-  --c-yellow: #FCD34D;
+  --c-yellow: #fcd34d;
   --radius: 7px;
 }
 
@@ -254,4 +254,37 @@ hr,
 }
 .projects .project .description p:last-child {
   margin-bottom: 0;
+}
+
+/* === SUBSCRIBE FORM ================================================== */
+.subscribe-form {
+  margin-top: 70px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 15px -4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.subscribe-form button[type="submit"] {
+  padding: 5px 15px;
+  background-color: var(--c-primary);
+  cursor: pointer;
+  height: 50px;
+}
+
+.subscribe-form .description {
+  font-size: 12px;
+}
+
+.subscribe-form input {
+  height: 50px;
+  border-radius: 5px;
+}
+
+.emailoctopus-rewards {
+  margin-top: 35px !important;
+  font-size: 12px;
 }

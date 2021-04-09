@@ -21,6 +21,16 @@ html(lang="en")
     link(rel="stylesheet" href="/css/style.css" type="text/css")
     link(rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon")
     link(rel="icon" href="/img/favicon.ico" type="image/x-icon")
+
+    script(async src="https://www.googletagmanager.com/gtag/js?id=G-GS52TRCTQ8")
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-GS52TRCTQ8');
+    script(src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-recaptcha.js")
+    script(src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-embed.js")
+    link(rel="stylesheet" href="https://emailoctopus.com/bundles/emailoctopuslist/css/1.6/form.css")
   body
     div(class="app")
       header(class="header")
