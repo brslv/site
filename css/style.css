@@ -1,17 +1,17 @@
 :root {
-  --c-primary: #fdf2e9;
-  --c-primary-darker: #fde9d9;
-  --c-text: #424949;
-  --c-yellow: #fcd34d;
+  --c-primary: #222;
+  --c-primary-darker: #000;
+  --c-text: #fff;
+  --c-yellow: #000;
   --radius: 7px;
 }
 
 html {
-  font-size: 100%;
+  font-size: 1.3125rem;
 } /* 16px */
 @media (min-width: 500px) {
   html {
-    font-size: 112.5%; /* 18px */
+    font-size: 1.3125rem; /* 18px */
   }
 }
 
@@ -259,7 +259,7 @@ hr,
 /* === SUBSCRIBE FORM ================================================== */
 .subscribe-form {
   margin-top: 70px;
-  background: #fff;
+  background: var(--c-primary-darker);
   border-radius: 5px;
   box-shadow: 0 2px 15px -4px rgba(0, 0, 0, 0.15);
   display: flex;
@@ -270,7 +270,7 @@ hr,
 
 .subscribe-form button[type="submit"] {
   padding: 5px 15px;
-  background-color: var(--c-primary);
+  background-color: var(--c-primary-darker);
   cursor: pointer;
   height: 50px;
 }
