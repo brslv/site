@@ -29,7 +29,7 @@ Firstly, because of the scale. People get scared when asked to experiment with t
 
 Secondly, because of the popular narrative that doing more leads to more. More success, more money, more happiness, more everything.
 
-It might work in the beginning. Until the amount of "things" becomes unbearable. That's when the wall of diminishing returns kicks in. That's when things start to hinder your efficiency.
+It might work in the beginning. Until the amount of "things" becomes unbearable. That's when the law of diminishing returns kicks in. That's when things start to hinder your efficiency.
 
 <!-- e -->Everyone's tipping point is different. You got to find yours.<!-- /e -->
 
