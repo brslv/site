@@ -26,6 +26,4 @@ They simply used pencils.
 
 <!-- e -->Most problems can be easily solved by simply going on another level of abstraction.<!-- /e -->
 
-When "Ink can't flow down in the space" turns into "We can't take notes with ink in outer space" things suddenly become obvious.
-
-Just don't use ink.
+When "Ink doesn't work in outer space" turns into "We can't take notes in outer space" things suddenly become obvious.
