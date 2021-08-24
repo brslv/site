@@ -17,7 +17,7 @@ I almost convinced myself to skip it.
 
 I'm glad that I didn't, though.
 
-I got up, put on some clothes, and a couple of hours later, I was facing the bar, loaded with a weight I haven't squatted ever before.
+I got up, put on some clothes, and a couple of hours later I was facing the bar, loaded with a weight I haven't squatted ever before.
 
 The first rep felt heavy, and the second - even heavier. I couldn't catch my breath. The third and the fourth were so close to failure, but I managed to squat these. The fifth was the hardest, but I ain't got in the gym to rack the bar and be a pussy. So, I took a big breath and squatted that shit out.
 
